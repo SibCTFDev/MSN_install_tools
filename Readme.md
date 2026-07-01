@@ -7,6 +7,12 @@
 - ADB мост для работы с андроид девайсами и эмуляторами
 - Android Studio (ide , менеджер устройств, заранее просим вас установить 1 эмулятор без гугл плей сервисов на android 14)
 - python3 и библиотеки frida frida-tools objection (написать версию и команду)
+  ```bash
+  sudo apt update
+  sudo apt install python3 python3-full python3-pip -y
+  python3 --version
+  pip3 install frida==16.5.9 frida-tools==13.0.0 objection 
+  ```
 
 Теперь что от вас требуется поставить в виртуальную машину с kalilinux:
 в данном репозитории лежит скрипт который исполнит и установит за вас все необходимые утилиты.</br>
