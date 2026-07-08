@@ -6,7 +6,7 @@
 - Гипервизор (UMT, VMware, VirtualBox) (выбираем исходя из того какой у вас ноутбук [инструкция для Макбук на М чипах прилагается](https://github.com/SibCTFDev/MSN_install_tools/blob/main/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D1%8B%20Kali%20%D1%81%20VMware%20%D0%B8%20UTM%20%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%BA%20%D1%81%20M%20%D1%87%D0%B8%D0%BF%D0%BE%D0%BC.pdf))
 - ADB мост для работы с андроид девайсами и эмуляторами (идет в комплекте с Android Studio)
 - Android Studio (ide , менеджер устройств, заранее просим вас установить 1 эмулятор без гугл плей сервисов на android 14) Даже при установке из ЦПО понадобятся права администратора
-- python3 (есть в ЦПО) и библиотеки frida frida-tools objection (написать версию и команду)
+- python3 (есть в ЦПО) и библиотеки frida frida-tools objection 
   ```bash
   sudo apt update
   sudo apt install python3 python3-full python3-pip -y
